@@ -28,7 +28,7 @@ check_file ${DTBS_TGZ}
 ###########################################################################
 
 # Openwrt root 源文件
-OP_ROOT_TGZ="openwrt-armvirt-64-default-rootfs.tar.gz"
+OP_ROOT_TGZ="immortalwrt-armvirt-64-default-rootfs.tar.gz"
 OPWRT_ROOTFS_GZ="${PWD}/${OP_ROOT_TGZ}"
 check_file ${OPWRT_ROOTFS_GZ}
 echo "Use $OPWRT_ROOTFS_GZ as openwrt rootfs!"
