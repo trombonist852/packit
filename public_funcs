@@ -989,7 +989,7 @@ function adjust_openssh_config() {
     echo "==============================================================================="
     (
         cd $TGT_ROOT
-        sed -e 's#root::0#root:$1$fe9OTETj$lEJwiQW4hDxi/GNj4JUlC1:18679#' -i shadow
+        sed -e 's#root::0#root:$1$fe9OTETj$lEJwiQW4hDxi/GNj4JUlC1:18679#' -i ./etc/shadow
         if [ -f "./etc/ssh/sshd_config" ];then
             echo -n "配置 sshd_config, 允许 root 用户登录 ... "
             sed -e "s/#PermitRootLogin prohibit-password/PermitRootLogin yes/" -i ./etc/ssh/sshd_config 2>/dev/null
