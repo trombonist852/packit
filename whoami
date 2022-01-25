@@ -1,0 +1,3 @@
+WHOAMI=Tr0mb0n1st
+OPENWRT_VER=21.02
+KERNEL_PKG_HOME=/home/runner/work/multi-device-openwrt/multi-device-openwrt/opt/kernel
