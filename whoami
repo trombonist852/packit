@@ -1,4 +1,4 @@
 WHOAMI=Tr0mb0n1st
 OPENWRT_VER=21.02
 KERNEL_PKG_HOME=/home/runner/work/multi-device-openwrt/multi-device-openwrt/opt/kernel
-KERNEL_VERSION=5.16.7-flippy-69+
+KERNEL_VERSION=5.16.9-flippy-69+
